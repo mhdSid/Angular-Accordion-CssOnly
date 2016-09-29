@@ -6,11 +6,11 @@
  ○ no fixed heights, content can grow naturally      
  ○ no absolute positioning for content   
  ○ support for variable number of tabs    
- ○ the tab width should not be fixed and grow with text length             
+ ○ tab width is not fixed and grows with text length             
  ○ no toggle animation           
  ○ no JS used for the accordion implementation      
- ○ on tab activation load the needed content via javascript request (you can use static content files, we are only interested    in the client side)        
- ○ request content only the first time a tab gets activated      
+ ○ on tab activation loads the needed content via javascript request           
+ ○ requests content only the first time a tab gets activated      
 
 ##### Clone the repository through https    
 
