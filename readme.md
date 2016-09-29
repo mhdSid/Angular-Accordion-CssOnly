@@ -1,13 +1,16 @@
 ### Intro
-* A simple backbone app synchronized with localstorage.  
-* It shows the simplicity and the synchronicity of the MVC framework.
+* A resuable AngularJS component. 
 
-### It offers admins the ability to:
-  * Create users / Create groups
-  * Remove users / Remove groups
-  * Add users to groups / Remove users from groups
-  * Assign users to groups / Remove users from groups
-  * Search for groups & users
+### Requirements:
+ ○ wide screens >= 768 pixel width
+ ○ no fixed heights, content can grow naturally
+ ○ no absolute positioning for content
+ ○ support for variable number of tabs
+ ○ the tab width should not be fixed and grow with text length 
+ ○ no toggle animation 
+ ○ bonus points: no JS
+ ○ on tab activation load the needed content via javascript request (you can use static content files, we are only interested    in the client side)
+ ○ request content only the first time a tab gets activated
 
 ##### Clone the repository through https 
 
