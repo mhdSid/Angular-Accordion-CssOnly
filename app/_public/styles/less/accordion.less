@@ -1,0 +1,62 @@
+.accordion {
+	background-color: #ffffff;
+	height: 50px; 
+	list-style: none;
+  	padding: 0;
+  	margin: 0;
+	
+	.accordion-item {
+		position: relative;
+		display: block;
+		padding: 16px; 
+		margin: 1px 0;
+		background-color: #e5e5e5;
+
+		.accordion-header-text {
+			position: relative;
+    		z-index: 2;
+		}
+
+		input[type=checkbox] {
+			position: absolute;
+			cursor: pointer;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			left: 0;
+			opacity: 0;
+			z-index: 3;
+
+			&:checked ~ div {
+				display: block;
+			}
+		}
+
+		.overlay {
+			display: none;
+			position: absolute;
+		    width: 100%;
+		    height: 100%;
+		    background-color: white;
+		    top: 0;
+		    left: 0;
+		    z-index: 1;
+		}
+
+		.accordion-item-body {
+			display: none;
+			padding: 20px 0;
+			background-color: #ffffff;
+    		position: relative;
+    		z-index: 2;
+		}
+	}
+} 
+
+@media (min-width: 768px) {
+	.accordion {
+		.accordion-item {
+			display: inline-block;
+		}
+	}
+}
